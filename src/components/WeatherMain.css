@@ -1,0 +1,19 @@
+.wind-speed{
+    margin-bottom: 20px;
+}
+.container-weather-main{
+    border-radius: 20px;
+    padding: 40px 20px;
+    background: rgba(255,255,255,0.1);
+    width: 600px;
+}
+@media (max-width: 600px){
+  div.container-weather-main{
+    width: 400px;
+  }  
+}
+@media (max-width: 450px){
+  div.container-weather-main{
+    width: 300px;
+  }  
+}

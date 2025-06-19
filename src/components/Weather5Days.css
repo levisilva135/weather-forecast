@@ -1,0 +1,72 @@
+.weather-list {
+    display: flex;
+    gap: 30px;
+}
+
+.weather-container-five-days {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+.weather-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.weather-item img {
+    transition: ease-in-out 0.2s;
+}
+
+.weather-item img:hover {
+    scale: 1.2;
+}
+
+.forecast-date {
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+@media (max-width: 900px) {
+    .weather-list {
+        gap: 10px;
+    }
+
+    .weather-container-five-days {
+        padding: 20px;
+    }
+
+    .forecast-description {
+        font-size: 1rem;
+    }
+
+    .forecast-temps {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 675px) {
+    .weather-list {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .weather-container-five-days {
+        width: 250px;
+    }
+
+    h3 {
+        margin-bottom: 50px;
+    }
+}

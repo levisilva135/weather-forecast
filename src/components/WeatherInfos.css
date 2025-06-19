@@ -1,0 +1,84 @@
+.weather-container {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    /* border: solid 1px #fff; */
+    border-radius: 20px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.temperature-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    transition: ease-in-out 0.2s;
+}
+h2:hover{
+    font-weight: 400;
+}
+.temperature-display h2 {
+    font-size: 3.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.forecast-description,
+.forecast-temps,
+.wind-speed {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+}
+
+.temperature-display img {
+    width: 100px;
+}
+
+.bars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 300px;
+    height: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7em;
+}
+
+.weather-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+@media (max-width: 768px) {
+    .weather-container {
+        flex-direction: column;
+    }
+
+    div.weather-main {
+        margin: 0 auto;
+    }
+
+}
+span{
+    transition: ease-in-out 0.2s;
+
+}
+span:hover{
+    font-weight: bold;
+}
+@media (max-width: 425px) {
+    .weather-container {
+        padding: 15px;
+    }
+
+    .bars {
+        width: 200px;
+    }
+}

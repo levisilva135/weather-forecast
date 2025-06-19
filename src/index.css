@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: default;
+}
+body {
+  background: url('background.jpg') center center no-repeat;
+  background-size: cover;
+  height: 115vh;
+}
+
+@media (max-width: 1100px) {
+  body {
+    height: 130vh;
+  }
+}
+
+@media (max-width: 780px) {
+  body {
+    height: 150vh;
+  }
+}
+
+@media (max-width: 675px) {
+  body {
+    height: 250vh;
+  }
+}

@@ -1,0 +1,76 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.input-city {
+  width: 350px;
+  min-width: 200px;
+  padding: 10px;
+  color: #000;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.input-city::placeholder {
+  font-family: "Montserrat", sans-serif;
+}
+
+.search {
+  display: flex;
+}
+
+p {
+  transition: ease-in-out 0.2s;
+}
+
+p:hover {
+  font-weight: bold;
+}
+
+.search button {
+  padding: 10px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  background-color: aqua;
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: aquamarine;
+}
+
+.button-icon {
+  transition: ease-in-out 0.2s;
+}
+
+p.erro {
+  color: #f80303;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+}
+
+.search button:hover .button-icon {
+  scale: 1.2;
+  rotate: 360deg;
+}
+
+@media (max-width: 425px) {
+  input.input-city {
+    width: 270px;
+  }
+}
