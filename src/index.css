@@ -7,7 +7,7 @@
   cursor: default;
 }
 body {
-  background: url('background.jpg') center center no-repeat;
+  background: url('/background.jpg') center center no-repeat;
   background-size: cover;
   height: 115vh;
 }
