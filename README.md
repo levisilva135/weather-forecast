@@ -1,12 +1,40 @@
-# React + Vite
+# 🌤️ Weather Forecast App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um aplicativo web de previsão do tempo desenvolvido com **React**, **Vite** e a **API da OpenWeather**. O projeto permite que usuários busquem o clima atual e a previsão para os próximos dias de qualquer cidade do mundo.
 
-Currently, two official plugins are available:
+## 🔧 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [OpenWeather API](https://openweathermap.org/api)
+- [Axios](https://axios-http.com/) (para requisições HTTP)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) ou [Tailwind CSS](https://tailwindcss.com/) *(dependendo do que você usou)*
 
-## Expanding the ESLint configuration
+## 🚀 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Busca por cidade para exibir o clima atual
+- Exibe temperatura, sensação térmica, umidade, vento e condições do céu
+- Previsão para os próximos dias
+- Ícones e descrição baseados na API do OpenWeather
+- Interface responsiva
+
+## 🛠️ Como Rodar o Projeto
+
+### Pré-requisitos
+
+- Node.js e npm instalados
+- Chave de API do OpenWeather
+
+### Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/weather-app.git
+cd weather-app
+
+# Instale as dependências
+npm install
+
+# Crie um arquivo .env com a sua chave da API
+touch .env
