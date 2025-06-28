@@ -36,5 +36,3 @@ cd weather-app
 # Instale as dependências
 npm install
 
-# Crie um arquivo .env com a sua chave da API
-touch .env
