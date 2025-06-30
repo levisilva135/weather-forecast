@@ -9,7 +9,7 @@ Este é um aplicativo web de previsão do tempo desenvolvido com **React**, **Vi
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [OpenWeather API](https://openweathermap.org/api)
 - [Axios](https://axios-http.com/) (para requisições HTTP)
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) ou [Tailwind CSS](https://tailwindcss.com/) *(dependendo do que você usou)*
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 ## 🚀 Funcionalidades
 
