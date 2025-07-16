@@ -10,6 +10,7 @@ Este é um aplicativo web de previsão do tempo desenvolvido com **React**, **Vi
 - [OpenWeather API](https://openweathermap.org/api)
 - [Axios](https://axios-http.com/) (para requisições HTTP)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [ESLINT](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 ## 🚀 Funcionalidades
 
